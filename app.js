@@ -10,5 +10,8 @@ function sc()
         {
             div.classList.add('show');
         }
+        else{
+            div.classList.remove('show');
+        }
     })
 };
