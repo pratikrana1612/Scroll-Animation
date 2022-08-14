@@ -38,3 +38,11 @@ div.show
 {
     transform:translateX(0px);
 }
+
+@media(max-width:30rem)
+{
+    div
+    {
+       width:350px;
+    }
+}
