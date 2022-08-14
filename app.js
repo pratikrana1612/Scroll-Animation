@@ -1,9 +1,11 @@
-const divs = document.getElementsByName('div');
-window.addEventListener('scroll',sc);
+const divs = document.querySelectorAll('div');
 
-function sc()
+window.addEventListener('scroll',scrollHandler);
+
+scrollHandler();
+function scrollHandler()
 {
-    let winHeight = window.innerHeight/5*4;
+    let winHeight = window.innerHeight;
     divs.forEach(div => {
         let divPosition=div.getBoundingClientRect().top;
         if(divPosition < winHeight)

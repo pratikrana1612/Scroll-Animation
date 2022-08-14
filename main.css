@@ -28,7 +28,7 @@ div{
     border-radius:10px;
     box-shadow:2px 4px 5px rgb(0 0 0 / 30%);
     transform:translateX(400%);
-    transition:0.3s linear;
+    transition:0.5s linear;
 }
 div:nth-of-type(even)
 {
@@ -36,5 +36,5 @@ div:nth-of-type(even)
 }
 .show
 {
-    transform:translateX(0px);
+    transform:translateX(0px) !important;
 }
